@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&family=Roboto+Mono&display=swap');
+
+*{
+    line-height: 1.2em;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.div01{
+    border: solid 2px blue;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: darkred;
+    width: 400px;
+    height:  600px;
+}
+
+.div02{
+    border: solid 2px red;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: darkolivegreen;
+    width: 700px;
+    height: 700px;
+
+}
+
+h2{
+    font-size: 30px;
+    color: linen;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h3{
+    font-size: 25px;
+    color: lightcoral;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+p{
+    font-family: 'Hina Mincho', serif;
+    font-size: 20px;
+    font-style: italic;
+    color: lightblue;
+
+}
+li{
+    font-family: 'Hina Mincho', serif;
+    font-size: 20px;
+    color: lightgreen;
+
+}
+
+.nume{
+    font-size: 25px;
+    color: blue;
+    text-shadow: 2px -2px black;
+    
+}
+
+.xicara{
+    font-variant: inherit;
+    font-weight: bolder;
+    text-decoration: line-through;
+}
+
+img{
+    width: 400px;
+    height: 250px;
+    border: solid 2px blue;
+    border-radius: 10%;
+
+}
+#i11{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
